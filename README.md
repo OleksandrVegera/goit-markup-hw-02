@@ -1,2 +1,3 @@
 # goit-markup-hw-01
-homework to HTML-basics
+
+https://oleksandrvegera.github.io/goit-markup-hw-02/
