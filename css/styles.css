@@ -1,8 +1,8 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
   background-color: #ffffff;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  color: #434455;
 }
 /*-- header section --*/
 .page-header {
@@ -10,10 +10,10 @@ body {
 }
 
 .header-logo-link {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -47,8 +47,13 @@ body {
   color: #2e2f42;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contact-list {
@@ -85,8 +90,9 @@ body {
 }
 
 .hero-button {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -94,7 +100,7 @@ body {
   letter-spacing: 0.64px;
 }
 
-.hero-button:hover {
+.hero-button:hover .hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -115,6 +121,7 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  color: #434455;
 }
 /*-- our-team --*/
 .our-team {
@@ -133,6 +140,10 @@ body {
 
 .our-team-list {
   list-style-type: none;
+}
+
+.our-team-item {
+  background-color: #ffffff;
 }
 
 .employee-name {
@@ -177,11 +188,11 @@ body {
 }
 
 .product-sphere {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  lletter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*-- footer-section --*/
@@ -190,7 +201,7 @@ body {
 }
 
 .footer-logo-link {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16; /* 116.667% */
@@ -201,10 +212,10 @@ body {
 }
 
 .footer-logo-link-studio {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #f4f4fd;
