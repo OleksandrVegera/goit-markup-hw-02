@@ -32,11 +32,12 @@ body {
 .nav-list {
   list-style-type: none;
 }
+
 .nav-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -53,12 +54,13 @@ body {
 .contact-list {
   list-style-type: none;
 }
+
 .contact-link {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
@@ -79,7 +81,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -133,7 +135,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
@@ -162,7 +164,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /*-- our-portfolio-section --*/
